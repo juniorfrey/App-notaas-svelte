@@ -22,8 +22,9 @@
 	}
 
 	function generateCoor(){
-		const colors = ['#DDFFC2','#FFC2C2','#FFEAC2','#C2FFD3', '#D35400', '#1ABC9C', '#2980B9', '#8E44AD','#E74C3C', '#566573','#A3E4D7'];
+		const colors = ['#DDFFC2','#FFC2C2','#FFEAC2','#C2FFD3', '#D35400', '#1ABC9C', '#2980B9', '#8E44AD','#E74C3C', '#566573','#A3E4D7', '#85929E','#F44336','#CCFF00','#D81B60','#000000','#00BCD4'];
 		const index = Math.floor(Math.random() * (colors.length));
+		console.log(colors[index], index, colors.length);
 		return colors[index];
 	}
 </script>

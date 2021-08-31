@@ -38,8 +38,8 @@
  }
 
  .Note:focus-within{
-     border:solid 2px #000;
-     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+     border:solid 2px #85C1E9;
+     box-shadow: 0 5px 8px #85C1E9;
  }
 
  .Note .Note-container .header{
