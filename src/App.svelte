@@ -3,20 +3,7 @@
 	import Header from "./Componentes/Header.svelte";
 	import {v4} from 'uuid';
 
-	let notes = [
-		{
-			id:0,
-			title:'Vacaciones',
-			color: 'yellow',
-			text:'Hola'
-		},
-		{
-			id:1,
-			title:'Trabajo de seguridad',
-			color: 'red',
-			text:'Hacer trabajo de seguridad'
-		}
-	];
+	let notes = [];
 	let copyNotes = [];
 	let count = notes.length;
 
@@ -31,6 +18,7 @@
 		};
 		notes = [note, ...notes];
 		copyNotes = [...notes];
+		count = notes.length;
 	}
 
 	function generateCoor(){
